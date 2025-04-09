@@ -4,12 +4,10 @@ import 'package:provider/provider.dart';
 
 class InsertData extends StatelessWidget {
   InsertData({super.key});
-
   final _formKey = GlobalKey<FormState>();
 
   final TextEditingController _weightController = TextEditingController();
   final TextEditingController _heightController = TextEditingController();
-
 
   @override
   Widget build(BuildContext context) {
