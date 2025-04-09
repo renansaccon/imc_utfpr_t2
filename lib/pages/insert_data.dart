@@ -26,7 +26,6 @@ class InsertData extends StatelessWidget {
                   if (value == null || value.isEmpty) {
                     return "Please, enter the weight!";
                   }
-
                   return null;
                 },
                 decoration: const InputDecoration(
